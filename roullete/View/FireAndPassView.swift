@@ -40,8 +40,8 @@ struct FireAndPassView: View {
                        }) {
                            Text("Fire")
                                .frame(width: 150, height: 80)
-                               .foregroundColor(Color.white)
-                               .background(Color.black)
+                               .foregroundStyle(Color("SecondColor"))
+                               .background(Color("MainColor"))
                                .cornerRadius(30)
                        }
                     Button(action: {
@@ -49,8 +49,8 @@ struct FireAndPassView: View {
                        }) {
                            Text("Pass (\(viewModel.maxPass))")
                                .frame(width: 150, height: 80)
-                               .foregroundColor(Color.white)
-                               .background(Color.black)
+                               .foregroundStyle(Color("SecondColor"))
+                               .background(Color("MainColor"))
                                .cornerRadius(30)
                        }
                 }

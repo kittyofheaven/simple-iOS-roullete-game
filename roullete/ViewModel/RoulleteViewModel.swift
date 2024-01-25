@@ -44,7 +44,6 @@ class RoulleteViewModel: ObservableObject {
         for _ in 0..<bullet {
             chamber[randomInt()] = true
         }
-        
     }
     
     func fire() {
@@ -58,7 +57,7 @@ class RoulleteViewModel: ObservableObject {
     
     // for fire and pass
     func fpWinCheck(){
-        if bulletNow == 9 && isWin == nil {
+        if bulletNow == 10 && isWin == nil {
             isWin = true
         }
     }
