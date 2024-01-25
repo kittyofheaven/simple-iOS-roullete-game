@@ -7,20 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F67D79A2B60206C00A96F27 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67D7992B60206B00A96F27 /* MainMenuView.swift */; };
+		1F67D79C2B60221A00A96F27 /* MainMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67D79B2B60221A00A96F27 /* MainMenuViewModel.swift */; };
+		1F67D79E2B6024B900A96F27 /* FireAndPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67D79D2B6024B900A96F27 /* FireAndPassView.swift */; };
 		1FC2CC192B5FD891001DAD07 /* roulleteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2CC182B5FD891001DAD07 /* roulleteApp.swift */; };
 		1FC2CC1B2B5FD891001DAD07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2CC1A2B5FD891001DAD07 /* ContentView.swift */; };
 		1FC2CC1D2B5FD891001DAD07 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2CC1C2B5FD891001DAD07 /* Item.swift */; };
 		1FC2CC1F2B5FD895001DAD07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC2CC1E2B5FD895001DAD07 /* Assets.xcassets */; };
 		1FC2CC222B5FD895001DAD07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC2CC212B5FD895001DAD07 /* Preview Assets.xcassets */; };
+		1FC2CC2D2B5FD924001DAD07 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2CC2C2B5FD924001DAD07 /* User.swift */; };
+		1FC2CC2F2B5FDEE4001DAD07 /* AddNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2CC2E2B5FDEE4001DAD07 /* AddNameView.swift */; };
+		1FC2CC312B5FDF2A001DAD07 /* AddNameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2CC302B5FDF2A001DAD07 /* AddNameViewModel.swift */; };
+		1FC2CC332B5FE812001DAD07 /* RouletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2CC322B5FE812001DAD07 /* RouletteView.swift */; };
+		1FC2CC352B5FE97C001DAD07 /* RoulleteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2CC342B5FE97C001DAD07 /* RoulleteViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F67D7992B60206B00A96F27 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		1F67D79B2B60221A00A96F27 /* MainMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewModel.swift; sourceTree = "<group>"; };
+		1F67D79D2B6024B900A96F27 /* FireAndPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireAndPassView.swift; sourceTree = "<group>"; };
 		1FC2CC152B5FD891001DAD07 /* roullete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = roullete.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC2CC182B5FD891001DAD07 /* roulleteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roulleteApp.swift; sourceTree = "<group>"; };
 		1FC2CC1A2B5FD891001DAD07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1FC2CC1C2B5FD891001DAD07 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		1FC2CC1E2B5FD895001DAD07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FC2CC212B5FD895001DAD07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FC2CC2C2B5FD924001DAD07 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1FC2CC2E2B5FDEE4001DAD07 /* AddNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNameView.swift; sourceTree = "<group>"; };
+		1FC2CC302B5FDF2A001DAD07 /* AddNameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNameViewModel.swift; sourceTree = "<group>"; };
+		1FC2CC322B5FE812001DAD07 /* RouletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteView.swift; sourceTree = "<group>"; };
+		1FC2CC342B5FE97C001DAD07 /* RoulleteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoulleteViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +69,10 @@
 		1FC2CC172B5FD891001DAD07 /* roullete */ = {
 			isa = PBXGroup;
 			children = (
-				1FC2CC182B5FD891001DAD07 /* roulleteApp.swift */,
-				1FC2CC1A2B5FD891001DAD07 /* ContentView.swift */,
-				1FC2CC1C2B5FD891001DAD07 /* Item.swift */,
-				1FC2CC1E2B5FD895001DAD07 /* Assets.xcassets */,
+				1FC2CC2B2B5FD8C3001DAD07 /* Others */,
+				1FC2CC2A2B5FD8B8001DAD07 /* ViewModel */,
+				1FC2CC292B5FD8B0001DAD07 /* View */,
+				1FC2CC282B5FD8A2001DAD07 /* Model */,
 				1FC2CC202B5FD895001DAD07 /* Preview Content */,
 			);
 			path = roullete;
@@ -68,6 +84,46 @@
 				1FC2CC212B5FD895001DAD07 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FC2CC282B5FD8A2001DAD07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1FC2CC1C2B5FD891001DAD07 /* Item.swift */,
+				1FC2CC2C2B5FD924001DAD07 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1FC2CC292B5FD8B0001DAD07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1FC2CC1A2B5FD891001DAD07 /* ContentView.swift */,
+				1FC2CC2E2B5FDEE4001DAD07 /* AddNameView.swift */,
+				1FC2CC322B5FE812001DAD07 /* RouletteView.swift */,
+				1F67D7992B60206B00A96F27 /* MainMenuView.swift */,
+				1F67D79D2B6024B900A96F27 /* FireAndPassView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1FC2CC2A2B5FD8B8001DAD07 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1FC2CC302B5FDF2A001DAD07 /* AddNameViewModel.swift */,
+				1FC2CC342B5FE97C001DAD07 /* RoulleteViewModel.swift */,
+				1F67D79B2B60221A00A96F27 /* MainMenuViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1FC2CC2B2B5FD8C3001DAD07 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				1FC2CC1E2B5FD895001DAD07 /* Assets.xcassets */,
+				1FC2CC182B5FD891001DAD07 /* roulleteApp.swift */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +196,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F67D79E2B6024B900A96F27 /* FireAndPassView.swift in Sources */,
 				1FC2CC1B2B5FD891001DAD07 /* ContentView.swift in Sources */,
 				1FC2CC1D2B5FD891001DAD07 /* Item.swift in Sources */,
+				1F67D79C2B60221A00A96F27 /* MainMenuViewModel.swift in Sources */,
+				1FC2CC352B5FE97C001DAD07 /* RoulleteViewModel.swift in Sources */,
+				1F67D79A2B60206C00A96F27 /* MainMenuView.swift in Sources */,
+				1FC2CC2F2B5FDEE4001DAD07 /* AddNameView.swift in Sources */,
+				1FC2CC2D2B5FD924001DAD07 /* User.swift in Sources */,
 				1FC2CC192B5FD891001DAD07 /* roulleteApp.swift in Sources */,
+				1FC2CC332B5FE812001DAD07 /* RouletteView.swift in Sources */,
+				1FC2CC312B5FDF2A001DAD07 /* AddNameViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
